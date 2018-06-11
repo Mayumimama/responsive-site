@@ -49,11 +49,16 @@ header {
    .point-box{
      background-color:$subColor;
      color:white;
-     width:400px;
-     height:110px;
+     width:30%;
+     height:auto;
      border:1px solid #a7e;
-     margin: 0 auto;
      padding:10px;
+     margin:10px;
+     @media (max-width: 768px){
+         width:90%;
+         height:auto;
+         margin:10px;
+     }
      h2{
        text-align: center;
        font-size:1.6rem;
